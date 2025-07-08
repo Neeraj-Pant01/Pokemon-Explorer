@@ -10,7 +10,7 @@ export default async function Home() {
         <h1 className="text-5xl font-bold mt-2 text-[#ffcb05] drop-shadow-[3px_3px_0px_#3c5aa6] font-press-start">
           Pokémon Explorer
         </h1>
-        <p className="text-[#3c5aa6] mt-2 text-lg">Gotta Catch 'Em All!</p>
+        <p>Don&apos;t forget to catch &apos;em all!</p>
       </header>
 
       <PokemonList initialPokemon={results} />

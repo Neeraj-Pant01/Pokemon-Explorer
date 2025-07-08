@@ -3,7 +3,7 @@ export const fetchPokemonList = async () =>{
     return resp.json();
 }
 
-export const fetchPokemonDetails = async (id : String) =>{
+export const fetchPokemonDetails = async (id : string) =>{
     const resp = await fetch(`https://pokeapi.co/api/v2/pokemon/${id}`)
     return resp.json();
 }
