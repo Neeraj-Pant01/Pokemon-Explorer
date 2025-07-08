@@ -1,9 +1,14 @@
-// app/pokemon/[id]/page.tsx
 import { fetchPokemonDetails } from '@/lib/api';
 import { ChevronLeft, Heart } from 'lucide-react';
 import Link from 'next/link';
+import { JSX } from 'react';
 
-export default async function Page({ params }: { params: { id: string } }) {
+type Props = {
+  params: {
+    id: string;
+  };
+};
+export default async function Page({ params }: Props): Promise<JSX.Element> {
   const pokemon = await fetchPokemonDetails(params.id);
   
   // Type colors mapping
