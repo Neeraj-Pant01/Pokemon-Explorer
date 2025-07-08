@@ -16,7 +16,7 @@ A responsive Pokédex app built with Next.js and PokeAPI.
 
 ## Running Locally
 ```bash
-git clone [https://github.com/Neeraj-Pant01/Pokemon-Explorer.git]
-cd pokemonexplorer
+git clone https://github.com/Neeraj-Pant01/Pokemon-Explorer.git
+cd Pokemon-Explorer
 npm install
 npm run dev
